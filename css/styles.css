@@ -1,0 +1,171 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.colored-section{
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section{
+  background-color: white;
+}
+
+/* Headings */
+
+.tag-line {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Title section */
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/* Navigation bar */
+
+.navbar {
+  padding: 0;
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+.iphone-6-img {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+/* Features Section */
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-fa-icon {
+  color: #ef8172;
+  font-size: 3rem;
+  margin-bottom: 5%;
+}
+
+.feature-fa-icon:hover {
+  color: #ff4c68;
+}
+
+#features {
+  position: relative;
+  z-index: 1;
+}
+
+.feature-desc {
+  color: #8f8f8f;
+}
+
+/* Testemonials section */
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonials-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonials-img {
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+/* Press section */
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing section */
+
+.pricing-title {
+  font-size: 1.5rem;
+}
+
+.price-details {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-cards {
+  padding: 10%;
+}
+
+.social-icon {
+  padding: 10px;
+}
+
+.copyright-message {
+  color: #8f8f8f;
+}
+
+@media screen and (max-width: 990px) {
+  #title {
+    text-align: center;
+  }
+
+  #features {
+    position: static;
+  }
+  .iphone-6-img {
+    transform: none;
+    position: static;
+  }
+  .card {
+    margin-top: 20px;
+  }
+}
